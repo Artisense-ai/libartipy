@@ -61,8 +61,8 @@ If you have a different naming, simply change the corresponding fields in datase
 from libartipy.dataset import Dataset, CameraType
 from libartipy.geometry import CoordinateSystem
 
-berlin_new_format_dir = '/tmp/'
-dataset_new = Dataset(berlin_new_format_dir)
+recording_xyz = '/tmp/'
+dataset_new = Dataset(recording_xyz)
 
 dataset_new.parse_keyframes() # parse keyframes and their points
 dataset_new.set_keyframe_poses_to_gps_poses() # if you want to use GPS poses (if available)
