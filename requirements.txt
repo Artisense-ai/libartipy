@@ -1,0 +1,23 @@
+cycler>=0.10.0
+Cython>=0.29.6
+imageio>=2.5.0
+laspy>=1.5.1
+matplotlib>=3.0.3
+numpy>=1.16.2
+opencv-python>=4.0.0.21
+open3d>=0.9.0.0
+pandas>=0.24.2
+Pillow>=5.4.1
+pymap3d>=1.7.14
+pyparsing>=2.3.1
+python-dateutil>=2.8.0
+python-lzf>=0.2.4
+pytz>=2018.9
+scikit-learn>=0.20.3
+scipy>=1.2.1
+six>=1.12.0
+sklearn>=0.0
+transforms3d>=0.3.1
+tables # for panda hdf5 support
+pyyaml>=5.3.1
+# pkg-resources is a bug in ubuntu and should be ignored https://stackoverflow.com/questions/39577984/what-is-pkg-resources-0-0-0-in-output-of-pip-freeze-command
