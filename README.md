@@ -16,7 +16,7 @@ sudo apt-get install python3-tk
 pip3 install --user virtualenv
 
 # 3. create virtual environment
-virtualenv --python=python3.6 --no-site-packages venv36
+virtualenv --python=python3.6 venv36
 
 # 4. activate virtual environment
 source venv36/bin/activate
